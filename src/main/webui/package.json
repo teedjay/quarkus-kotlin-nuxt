@@ -1,14 +1,22 @@
 {
-  "name": "quinoa-starter",
+  "name": "nuxt-app",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --base=/quinoa",
-    "build": "vite build --base=/quinoa",
-    "preview": "vite preview --base=/quinoa"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.2.4",
+    "nuxt": "^3.14.1592",
+    "primevue": "^4.2.4",
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "devDependencies": {
-    "vite": "^5.3.6"
+    "@primevue/nuxt-module": "^4.2.4"
   }
 }

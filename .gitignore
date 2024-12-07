@@ -48,13 +48,24 @@ maven-wrapper.jar
 # TLS Certificates
 .certs/
 
-# Quinoa
+# Quinoa + Node
 node_modules/
 build/
 dist/
 .quinoa/
 dist-ssr
 *.local
+
+# Nuxt + Vue
+.nuxt/
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
 # Logs
 logs/

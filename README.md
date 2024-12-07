@@ -9,7 +9,7 @@ You can run your application in dev mode that enables live coding using:
 ./mvnw quarkus:dev
 ```
 
-Access web application at : http://localhost:8080/quinoa
+Access web application at : http://localhost:8080/webui
 
 ## Packaging and running the application
 
