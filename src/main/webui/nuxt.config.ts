@@ -13,8 +13,6 @@ export default defineNuxtConfig({
   ],
   primevue: {
     options: {
-      ripple: true,
-      inputVariant: 'filled',
       theme: {
         preset: Aura
       }

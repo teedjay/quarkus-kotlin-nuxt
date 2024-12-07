@@ -9,7 +9,8 @@ You can run your application in dev mode that enables live coding using:
 ./mvnw quarkus:dev
 ```
 
-Access web application at : http://localhost:8080/webui
+Access web application at : http://localhost:8080/webui/
+Look at the json bff data at : http://localhost:8080/bff/users
 
 ## Packaging and running the application
 
