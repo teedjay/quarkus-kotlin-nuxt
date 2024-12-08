@@ -14,7 +14,7 @@
 
         <h1>Testing PrimeVue DataTable</h1>
 
-        <DataTable :value="users" tableStyle="min-width: 50rem">
+        <DataTable :value="users" showGridlines stripedRows tableStyle="min-width: 50rem">
             <Column field="name" header="Name"></Column>
             <Column field="age" header="Age"></Column>
         </DataTable>
