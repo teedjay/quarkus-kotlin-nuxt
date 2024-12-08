@@ -1,4 +1,7 @@
 <template>
+
+
+    <h1>Grid of 3</h1>
     <div class="grid">
         <div class="col" style="background-color: green">
             <div class="text-center p-3 border-round-sm bg-primary font-bold">1</div>
