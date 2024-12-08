@@ -16,7 +16,10 @@ export default defineNuxtConfig({
             ripple: true,
             inputVariant: 'filled',
             theme: {
-                preset: Aura
+                preset: Aura,
+                options: {
+                    darkModeSelector: false,
+                }
             }
         }
     },
