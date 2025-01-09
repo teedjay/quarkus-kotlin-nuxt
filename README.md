@@ -1,5 +1,5 @@
 # quarkus-kotlin-nuxt
-Quarkus + Kotlin BFF with Nuxt + Vue frontend using PrimeVue and Quinoa extension
+Quarkus + Kotlin BFF with Nuxt + Vue frontend using PrimeVue and Quinoa extension.
 
 ## Running the application in dev mode
 
